@@ -31,7 +31,10 @@ class PrimeDirective {
     public static void main(String[] args){
         PrimeDirective pd = new PrimeDirective();
         int[] numbers =  {6, 29, 28, 33, 11, 100, 101, 43, 89};
+        int[] numbers_two = {2,4,5,6,7,8,4,2,4,5,7,9,0,11,23,29};
         System.out.println(pd.onlyPrimes(numbers));
+        System.out.print(pd.onlyPrimes(numbers_two));
+
     }
 
 }
